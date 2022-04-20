@@ -1,0 +1,81 @@
+@import url('../styles/conf/variables.scss');
+$blue: #00162b;
+$red: #d2003c;
+$aver: #fff;
+nav {
+    .nav-wrapper {
+        background-color: $blue;
+        .containter-logo {
+            background-color: $blue;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .container-icon {
+                p {
+                    border: 2px solid white;
+                    height: 35px;
+                    width: 35px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50px;
+                    transition: all ease-in-out .2s;
+                    cursor: pointer;
+                    &:hover {
+                        opacity: .5;
+                    }
+                }
+            }
+            // este div es el que contiene la imagen
+            div {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 140px;
+                }
+            }
+        }
+        .container-menu {
+            background-color: $blue;
+            text-align: center;
+            margin-top: 15px;
+            ul {
+                background-color: $blue;
+                width: 70%;
+                min-width: 300px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border: 2px solid white;
+                border-radius: 15px;
+                line-height: 30px;
+                li {
+                    background-color: $blue;
+                    font-weight: bold;
+                    font-size: .8rem;
+                    border-radius: 15px;
+                    padding: 0 7px;
+                    transition: all ease-in-out .2;
+                    cursor: pointer;
+                    &:hover {
+                        background-color: $red;
+                    }
+                }
+            }
+        }
+        .container-search {
+            text-align: right;
+            margin: auto;
+            i {
+                font-size: 16px;
+                margin: 0 6px;
+                transition: all ease-in-out .2s;
+                cursor: pointer;
+                &:hover {
+                    opacity: .2;
+                }
+            }
+        }
+    }
+}

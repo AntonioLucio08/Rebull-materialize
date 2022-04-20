@@ -1,0 +1,108 @@
+@import url("../styles/conf/variables.scss");
+nav .nav-wrapper {
+  background-color: #00162b;
+}
+
+nav .nav-wrapper .containter-logo {
+  background-color: #00162b;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-wrapper .containter-logo .container-icon p {
+  border: 2px solid white;
+  height: 35px;
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 50px;
+  -webkit-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
+}
+
+nav .nav-wrapper .containter-logo .container-icon p:hover {
+  opacity: .5;
+}
+
+nav .nav-wrapper .containter-logo div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .nav-wrapper .containter-logo div img {
+  width: 140px;
+}
+
+nav .nav-wrapper .container-menu {
+  background-color: #00162b;
+  text-align: center;
+  margin-top: 15px;
+}
+
+nav .nav-wrapper .container-menu ul {
+  background-color: #00162b;
+  width: 70%;
+  min-width: 300px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid white;
+  border-radius: 15px;
+  line-height: 30px;
+}
+
+nav .nav-wrapper .container-menu ul li {
+  background-color: #00162b;
+  font-weight: bold;
+  font-size: .8rem;
+  border-radius: 15px;
+  padding: 0 7px;
+  -webkit-transition: all ease-in-out .2;
+  transition: all ease-in-out .2;
+  cursor: pointer;
+}
+
+nav .nav-wrapper .container-menu ul li:hover {
+  background-color: #d2003c;
+}
+
+nav .nav-wrapper .container-search {
+  text-align: right;
+  margin: auto;
+}
+
+nav .nav-wrapper .container-search i {
+  font-size: 16px;
+  margin: 0 6px;
+  -webkit-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
+}
+
+nav .nav-wrapper .container-search i:hover {
+  opacity: .2;
+}
+/*# sourceMappingURL=index-styles.css.map */
