@@ -1,81 +1,134 @@
-@import url('../styles/conf/variables.scss');
-$blue: #00162b;
-$red: #d2003c;
-$aver: #fff;
-nav {
-    .nav-wrapper {
-        background-color: $blue;
-        .containter-logo {
-            background-color: $blue;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            .container-icon {
-                p {
-                    border: 2px solid white;
-                    height: 35px;
-                    width: 35px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    border-radius: 50px;
-                    transition: all ease-in-out .2s;
-                    cursor: pointer;
-                    &:hover {
-                        opacity: .5;
+                    @import url('../styles/conf/variables.scss');
+                    $blue: #00162b;
+                    $red: #d2003c;
+                    $aver: #fff;
+                    nav {
+                        .nav-wrapper {
+                            background-color: $blue;
+                            .containter-logo {
+                                background-color: $blue;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                .container-icon {
+                                    p {
+                                        border: 2px solid white;
+                                        height: 35px;
+                                        width: 35px;
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        border-radius: 50px;
+                                        transition: all ease-in-out .2s;
+                                        cursor: pointer;
+                                        &:hover {
+                                            opacity: .5;
+                                        }
+                                    }
+                                }
+                                // este div es el que contiene la imagen
+                                div {
+                                    display: flex;
+                                    align-items: center;
+                                    img {
+                                        width: 140px;
+                                    }
+                                }
+                            }
+                            .container-menu {
+                                background-color: $blue;
+                                text-align: center;
+                                margin-top: 15px;
+                                ul {
+                                    background-color: $blue;
+                                    width: 70%;
+                                    min-width: 300px;
+                                    margin: 0 auto;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    border: 2px solid white;
+                                    border-radius: 15px;
+                                    line-height: 30px;
+                                    li {
+                                        background-color: $blue;
+                                        font-weight: bold;
+                                        font-size: .8rem;
+                                        border-radius: 15px;
+                                        padding: 0 7px;
+                                        transition: all ease-in-out .2;
+                                        cursor: pointer;
+                                        &:hover {
+                                            background-color: $red;
+                                        }
+                                    }
+                                }
+                            }
+                            .container-search {
+                                text-align: right;
+                                margin: auto;
+                                i {
+                                    font-size: 16px;
+                                    margin: 0 6px;
+                                    transition: all ease-in-out .2s;
+                                    cursor: pointer;
+                                    &:hover {
+                                        opacity: .2;
+                                    }
+                                }
+                            }
+                        }
                     }
-                }
-            }
-            // este div es el que contiene la imagen
-            div {
-                display: flex;
-                align-items: center;
-                img {
-                    width: 140px;
-                }
-            }
-        }
-        .container-menu {
-            background-color: $blue;
-            text-align: center;
-            margin-top: 15px;
-            ul {
-                background-color: $blue;
-                width: 70%;
-                min-width: 300px;
-                margin: 0 auto;
-                display: flex;
-                justify-content: space-around;
-                align-items: center;
-                border: 2px solid white;
-                border-radius: 15px;
-                line-height: 30px;
-                li {
-                    background-color: $blue;
-                    font-weight: bold;
-                    font-size: .8rem;
-                    border-radius: 15px;
-                    padding: 0 7px;
-                    transition: all ease-in-out .2;
-                    cursor: pointer;
-                    &:hover {
-                        background-color: $red;
+                    
+                    .baner {
+                        position: relative;
+                        margin-top: 0px !important;
+                        height: 700px;
+                        background-image: url('https://img.redbull.com/images/c_crop,x_0,y_586,h_2112,w_5282/c_fill,w_1920,h_768/q_auto,f_auto/redbullcom/2022/3/9/gnwt9qi8ehywmif2bxrh/plane-swap-featured-image');
+                        background-size: cover;
+                        background-position: center;
+                        background-attachment: fixed;
+                        .row {
+                            height: 100px;
+                        }
+                        h4 {
+                            margin-top: 300px;
+                            padding: 0px !important;
+                            height: 0px;
+                        }
+                        h1 {
+                            padding: 0px !important;
+                        }
+                        h3 {
+                            margin: 0px !important;
+                        }
+                        button {
+                            background-color: $red;
+                            margin-top: 20px;
+                            padding: 35px;
+                            border-radius: 10px;
+                            margin: 0 6px;
+                            transition: all ease-in-out .2s;
+                            cursor: pointer;
+                            &:hover {
+                                opacity: 2;
+                            }
+                        }
+                        li {
+                            position: absolute;
+                            bottom: 0px;
+                            background-color: #00162b48;
+                            display: flex;
+                            margin: 0px !important;
+                            padding: 0px !important;
+                        }
+                        ul {
+                            margin: 30px 10px 0px 10px;
+                            font-weight: bold;
+                            color: white;
+                            border-top: 2px solid white;
+                            line-height: 30px;
+                            transition: all ease-in-out .6;
+                            cursor: pointer;
+                        }
                     }
-                }
-            }
-        }
-        .container-search {
-            text-align: right;
-            margin: auto;
-            i {
-                font-size: 16px;
-                margin: 0 6px;
-                transition: all ease-in-out .2s;
-                cursor: pointer;
-                &:hover {
-                    opacity: .2;
-                }
-            }
-        }
-    }
-}

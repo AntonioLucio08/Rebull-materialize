@@ -105,4 +105,69 @@ nav .nav-wrapper .container-search i {
 nav .nav-wrapper .container-search i:hover {
   opacity: .2;
 }
+
+.baner {
+  position: relative;
+  margin-top: 0px !important;
+  height: 700px;
+  background-image: url("https://img.redbull.com/images/c_crop,x_0,y_586,h_2112,w_5282/c_fill,w_1920,h_768/q_auto,f_auto/redbullcom/2022/3/9/gnwt9qi8ehywmif2bxrh/plane-swap-featured-image");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.baner .row {
+  height: 100px;
+}
+
+.baner h4 {
+  margin-top: 300px;
+  padding: 0px !important;
+  height: 0px;
+}
+
+.baner h1 {
+  padding: 0px !important;
+}
+
+.baner h3 {
+  margin: 0px !important;
+}
+
+.baner button {
+  background-color: #d2003c;
+  margin-top: 20px;
+  padding: 35px;
+  border-radius: 10px;
+  margin: 0 6px;
+  -webkit-transition: all ease-in-out .2s;
+  transition: all ease-in-out .2s;
+  cursor: pointer;
+}
+
+.baner button:hover {
+  opacity: 2;
+}
+
+.baner li {
+  position: absolute;
+  bottom: 0px;
+  background-color: #00162b48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.baner ul {
+  margin: 30px 10px 0px 10px;
+  font-weight: bold;
+  color: white;
+  border-top: 2px solid white;
+  line-height: 30px;
+  -webkit-transition: all ease-in-out .6;
+  transition: all ease-in-out .6;
+  cursor: pointer;
+}
 /*# sourceMappingURL=index-styles.css.map */
