@@ -1,0 +1,29 @@
+$blue: #00162b;
+$red: #d2003c;
+$aver: #fff;
+.footer {
+    background-color: $blue;
+    .row {
+        background-color: $blue;
+        font-weight: 500;
+        color: rgba(134, 134, 134, 0.61);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0;
+        .footer-ul {
+            display: block;
+            .li {
+                margin: 20px;
+                cursor: pointer;
+                &:hover {
+                    text-decoration: underline white;
+                }
+            }
+        }
+        .footer-credbull {
+            font-size: 15px;
+            display: flex;
+            justify-content: right;
+        }
+    }
+}

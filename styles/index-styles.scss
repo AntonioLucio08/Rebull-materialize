@@ -2,6 +2,10 @@
                     $blue: #00162b;
                     $red: #d2003c;
                     $aver: #fff;
+                    body {
+                        background-color: #f4f4f4;
+                    }
+                    
                     nav {
                         .nav-wrapper {
                             background-color: $blue;
@@ -103,9 +107,10 @@
                             margin: 0px !important;
                         }
                         button {
+                            color: #fff;
                             background-color: $red;
                             margin-top: 20px;
-                            padding: 35px;
+                            padding: 20px;
                             border-radius: 10px;
                             margin: 0 6px;
                             transition: all ease-in-out .2s;

@@ -1,0 +1,39 @@
+.footer {
+  background-color: #00162b;
+}
+
+.footer .row {
+  background-color: #00162b;
+  font-weight: 500;
+  color: rgba(134, 134, 134, 0.61);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+}
+
+.footer .row .footer-ul {
+  display: block;
+}
+
+.footer .row .footer-ul .li {
+  margin: 20px;
+  cursor: pointer;
+}
+
+.footer .row .footer-ul .li:hover {
+  -webkit-text-decoration: underline white;
+          text-decoration: underline white;
+}
+
+.footer .row .footer-credbull {
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+/*# sourceMappingURL=foter-styles.css.map */

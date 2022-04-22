@@ -1,4 +1,8 @@
 @import url("../styles/conf/variables.scss");
+body {
+  background-color: #f4f4f4;
+}
+
 nav .nav-wrapper {
   background-color: #00162b;
 }
@@ -135,9 +139,10 @@ nav .nav-wrapper .container-search i:hover {
 }
 
 .baner button {
+  color: #fff;
   background-color: #d2003c;
   margin-top: 20px;
-  padding: 35px;
+  padding: 20px;
   border-radius: 10px;
   margin: 0 6px;
   -webkit-transition: all ease-in-out .2s;
